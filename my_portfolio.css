@@ -4,14 +4,70 @@
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  }
 
 .container {
   display: flex;
   flex-direction: column;  
-  margin: 5vw; 
+  margin: 2vw; 
+}
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+header.masthead .intro-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+ 
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
 .banner .card {
   background: #2c2c2c;
   border: 1px solid #2c2c2c;
@@ -88,6 +144,13 @@ body {
   .icon-name{
       font-size: 2rem;
       text-align: center;
+      
+  }
+  .icon-name p{
+    
+    
+    margin: 0px;
+
   }
   .icon-group .icon{
    
@@ -97,10 +160,11 @@ body {
   }
   .Project{
       width: 100%;
-      height: 25vh;
+      
   }
 .Interests_Tecnology{
     width: 100%;
+   
 }
 .Tecnology{
     background-color: #2c2c2c;
@@ -115,11 +179,26 @@ body {
       text-transform: uppercase;
       transition: box-shadow 0.3s linear 0.1s; 
 }
+h6{
+text-transform: capitalize;
+}
 a{
     font-size: 2rem;
     text-decoration: unset;
+    color: #35eea4;
 }
+.contact{
   
+}
+ .logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   
+ }
+ .logo .div{
+  margin: 10px;
+ } 
 @media only screen and (max-width: 725px){
     .row{
       flex-direction: column;
@@ -134,10 +213,11 @@ a{
 
     .icon-group{
         margin-top: 2vh;
-        
-        flex-direction: column;
+        flex-wrap: wrap;
       }
       .icon-name{
+        margin: 2%;
+        width: 46%;
           text-align: center;
       }
       .icon-group .icon{
@@ -149,11 +229,13 @@ a{
 
 
   }
-  @media only screen and (max-width: 1200px){
-    .icon-group .icon{
-   
-        width: 20vw;
-        height: 25vh;
-       
-       }  
-}
+  @media only screen and (max-width: 480px){
+
+    .icon-name{
+     
+      width: 100%;
+        text-align: center;
+    }
+  }
+
+ 
