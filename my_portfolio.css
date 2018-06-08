@@ -235,6 +235,12 @@ a{
       width: 100%;
         text-align: center;
     }
+    .icon-group .icon{
+       
+      width: 50vw;
+      height: 35vh;
+     
+     }
   }
 
  
