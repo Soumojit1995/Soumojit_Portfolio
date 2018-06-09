@@ -14,7 +14,7 @@ body {
 }
 header.masthead {
   text-align: center;
-  color: white;
+  color: #fbc02d;
    background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -130,7 +130,7 @@ header.masthead .intro-text .intro-heading {
   font-family: "Istok Web", sans-serif;
   padding: 5vw 5vw 5vw 0;
 }
-.Interests_Tecnology{
+.Interests_Heading{
     width: 100vw;
     
 }
@@ -161,11 +161,11 @@ header.masthead .intro-text .intro-heading {
       width: 100%;
       
   }
-.Interests_Tecnology{
+.Interests_Heading{
     width: 100%;
    
 }
-.Tecnology{
+.Heading{
     background-color: #2c2c2c;
       border: none;
       border-radius: 5px;
